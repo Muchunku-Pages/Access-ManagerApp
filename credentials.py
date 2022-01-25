@@ -52,14 +52,13 @@ class Credentials:
    
     @classmethod
     def credential_confirmation(cls,name):
-
       '''
       A method for checking whether an account credential exists 
       in the credentials object list
 
       Parameters: name- the name value to be checked 
 
-      Return: boolean-a true or false value depending on whether 
+      Return: boolean- a true or false value depending on whether 
       the credentials exist
         
       '''
@@ -68,4 +67,16 @@ class Credentials:
           return True
 
       return False
+    
+    @classmethod
+    def display_credentials(cls):
+      '''
+      A method to return all the account credential instances 
+      contained in this classes credential object list.
+
+      '''
+
+      return cls.credentials_object_list
+
+
 
