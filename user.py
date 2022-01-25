@@ -25,7 +25,7 @@ class User:
 
     '''
     User.user_object_list.remove(self)
-    
+
   @classmethod
   def display_all_users(cls):
 
@@ -52,5 +52,13 @@ class User:
 
  
 
+  @classmethod
+  def user_presence(cls,username):
+    '''
+    Method which checks whether a 
+    particular user exists
 
-      
+    '''
+    for user in cls.user_object_list:
+      if user.username == username:
+        return user  
