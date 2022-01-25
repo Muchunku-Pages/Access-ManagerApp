@@ -24,6 +24,8 @@ class User:
     Deletes a saved user object instance from the user_object_list
 
     '''
+    User.user_object_list.remove(self)
+    
   @classmethod
   def display_all_users(cls):
 
