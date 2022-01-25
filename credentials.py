@@ -38,3 +38,34 @@ class Credentials:
 
       Credentials.credentials_object_list.remove(self)
 
+    @classmethod
+    def find_credentials(cls,account):  
+      '''
+      A method that accepts an account value argument and returns 
+      its corresponding credential details if a match is found
+
+      '''  
+
+      for Credentials in cls.credentials_object_list:
+        if Credentials.account == account:
+          return Credentials
+   
+    @classmethod
+    def credential_confirmation(cls,name):
+
+      '''
+      A method for checking whether an account credential exists 
+      in the credentials object list
+
+      Parameters: name- the name value to be checked 
+
+      Return: boolean-a true or false value depending on whether 
+      the credentials exist
+        
+      '''
+      for Credentials in cls.credentials_object_list:
+        if Credentials.name == name:
+          return True
+
+      return False
+
