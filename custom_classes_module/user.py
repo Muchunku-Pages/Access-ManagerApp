@@ -30,7 +30,7 @@ class User:
   def display_all_users(cls):
 
     '''
-    Method to show User class instances added into the user object list
+    Method to show User class instances saved in the user object list
     '''
     return cls.user_object_list
 

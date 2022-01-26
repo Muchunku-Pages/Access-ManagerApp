@@ -114,7 +114,7 @@ def check_existing_credentials(username):
   return Credentials.credential_confirmation(username)
 
 
-def display_credentials();
+def display_credentials():
   '''
   A Function which returns instances of all the 
   saved account credentials by calling the 
