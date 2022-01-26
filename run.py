@@ -125,7 +125,7 @@ def display_credentials():
   return Credentials.display_credentials()
 
 def main():
-  print("Hello User! Welcome to the Access Account Credentials Manager App, enabling you manage your various Log-In Media Access Credentials")
+  print("Hello User! Welcome to the Access Account Credentials Manager App, enabling you manage your various Digital Media Log-in Access Credentials")
   print("\n")
   print('Please make use of the following short codes to carry out its corresponding tasks, as you require: ca = create account,' )
   short_code = input().lower()
@@ -194,26 +194,26 @@ def main():
           print('You entered an Incorrect Account Name. Please type in a correct Account Name again')
           print('*' * 10)
 
-        elif short_code == 'fc':
-          print('Enter Account Name To Be Found...')
-          search = input('Account Name : ')
+      elif short_code == 'fc':
+        print('Enter Account Name To Be Found...')
+        search = input('Account Name : ')
+        print('*' * 10)
+        if find_credentials(search):
+          search = find_credentials(search)
+          print(f'Account Name: {search} ')
           print('*' * 10)
-          if find_credentials(search):
-            search = find_credentials(search)
-            print(f'Account Name: {search} ')
-            print('*' * 10)
-          else:
-            print(' the Account Credentials you are looking for do not exist')
-            print('*' * 10)
-
-        elif short_code == 'ex':
-          print('Thank You for choosing our Access Account Manager to Manage Your Access Credentials')
-          print('*' * 10)
-          break
-
         else:
-          print(' You have entered an Invalid Short code. Please try again!')
+          print(' the Account Credentials you are looking for do not exist')
           print('*' * 10)
+
+      elif short_code == 'ex':
+        print('Thank You for choosing our Access Account Manager to Manage Your Access Credentials')
+        print('*' * 10)
+        break
+
+      else:
+        print(' You have entered an Invalid Short code. Please try again!')
+        print('*' * 10)
 
 if __name__ == '__main__':
   main()  
