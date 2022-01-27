@@ -60,7 +60,7 @@ Use the following short code keys and corresponding instructions to proceed ... 
 Your new account password is: ***password***|
 |Store new credentials in your application|   Enter ***cc***              |   Enter Account, username, password 
 Select ***tp*** to enter your password or ***gp*** for the application to generate one for you |
-| Display all the saved Yser Account Credentials       |           Enter ***dc***         |Displays the list of all Account Credentials that have been stored or the information: You don't have any saved Account Credentials yet|
+| Display all the saved User Account Credentials       |           Enter ***dc***         |Displays the list of all Account Credentials that have been stored or the information: You don't have any saved Account Credentials yet|
 |Find stored credentials based on the account name|    Enter ***fc***        |Enter the Account Name you wish to search for and it returns its corresponding account credential details|
 |Delete existing account credentials that you no longer require| Enter ***dd*** |Enter the Account name of the Credentials you wish to delete and it returns a true evaluation after the account has been deleted or a false evaluation if the account doesn't exist|
 |  Exit the application                |              Enter ***ex***       | Exit application |
