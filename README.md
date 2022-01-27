@@ -1,7 +1,7 @@
 
 ***Muchunku-Pages***
 
-# Access-ManagerApplication
+# Access-Manager Application
 
 ## Author
 Brian Mwenda Muchunku
@@ -15,8 +15,7 @@ The Application enables its Users to store account Credential information for th
 ### Installation Requirements
 This Application was developed using Python3.8.1. 
 
-In its executable form it can be run at a terminal from its own source code files at a Computer's Terminal regardless of the Python3.* version installed on your PC.
-
+In its executable form it can be re-intepreted to be compatible with any Python3.* version by decompiling its source code files using the installed Python via the Computer's Terminal at the Python shell prompt
 However, to be able to further develop and manipulate its code, ensure its either developed in a compatible version or that you convert this Python code version, into a version compatible with the Python version you wish to work with.
 
 ### Dowloading The Access Manager Application 
