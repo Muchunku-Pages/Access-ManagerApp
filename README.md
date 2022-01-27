@@ -15,7 +15,7 @@ The Application enables its Users to store account Credential information for th
 ### Installation Requirements
 This Application was developed using Python3.8.1. 
 
-In its executable form it can be run at a terminal from its own source code files at a Computer's Terminal regardless of the Python version installed on your PC.
+In its executable form it can be run at a terminal from its own source code files at a Computer's Terminal regardless of the Python3.* version installed on your PC.
 
 However, to be able to further develop and manipulate its code, ensure its either developed in a compatible version or that you convert this Python code version, into a version compatible with the Python version you wish to work with.
 
@@ -31,11 +31,9 @@ However, to be able to further develop and manipulate its code, ensure its eithe
 
 * Enter the code to switch to and open your installed code editor such as VSCode or Atom:$ code . / $ atom .
 
-* To execute the application, open the cloned file from your terminal prompt and run the following commands:
+* To execute the application, open the cloned file from the terminal prompt to the Application path as shown above and run the following commands:
 
-      $ chmod +x run.py
-
-      $ ./run.py
+      $ python3 run.py
 
 To run the Application's unit test file *use $ python3.8 run_test.py or a compatible version
 
@@ -76,6 +74,6 @@ Select ***tp*** to enter your password or ***gp*** for the application to genera
 For any queries or comments about this application, please email me at []
 
 ## License
-* MIT License:
+* MIT License
 
 * Copyright (c) 2022 Brian Mwenda Muchunku
